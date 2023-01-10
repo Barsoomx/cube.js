@@ -190,6 +190,10 @@ CUBEJS_REDIS_PASSWORD.
 - name: CUBEJS_DB_URL
   value: {{ .Values.database.url | quote }}
 {{- end }}
+{{- if .Values.database.clickhouseReadonly }}
+- name: CUBEJS_DB_CLICKHOUSE_READONLY
+  value: {{ .Values.database.clickhouseReadonly | quote }}
+{{- end }}
 {{- if .Values.database.host }}
 - name: CUBEJS_DB_HOST
   value: {{ .Values.database.host | quote }}

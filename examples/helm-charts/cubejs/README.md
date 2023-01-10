@@ -234,6 +234,7 @@ cubestore:
 | Name                                           | Description                                                                      | Value   |
 | ---------------------------------------------- | -------------------------------------------------------------------------------- | ------- |
 | `database.type`                                | A database type supported by Cube.js                                             |         |
+| `database.clickhouseReadonly`                  | Readonly flag for CH database                                                    |         |
 | `database.url`                                 | The URL for a database                                                           |         |
 | `database.host`                                | The host URL for a database                                                      |         |
 | `database.port`                                | The port for the database connection                                             |         |

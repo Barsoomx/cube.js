@@ -206,6 +206,10 @@ database:
   ##
   url:
 
+  ## Readonly flag for database
+  ##
+  clickhouseReadonly:
+
   ## The host URL for a database
   ##
   host:
